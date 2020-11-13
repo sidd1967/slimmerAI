@@ -3,7 +3,7 @@
 2) Open CMD PROMPT in the project folder and run "yarn install" to install all the dependancies.
 3) Then run "yarn start" to run the react app. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 4) Navigate to the "api" folder and "yarn install" to install all the dependancies.
-To get this example working, run the following two commands:
+To get this  working, run the following two commands:
 ### pip install spacy
 ### python -m spacy download en_core_web_sm
 5) Database Setup:
@@ -23,8 +23,8 @@ Open Command Line and Execute the following queries to set up DB:
 ### FLASK_APP = main.py
 ### FLASK_ENV = development
    
-7) Then run "yart start-api" to run the backend (runs on [http://localhost:5000]
-8) Now the Project will run smoothly!! 
+8) Then run "yart start-api" to run the backend (runs on [http://localhost:5000]
+9) Now the Project will run smoothly!! 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
