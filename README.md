@@ -4,18 +4,18 @@ Instructions:
 3) Then run "yarn start" to run the react app. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 4) Navigate to the "api" folder and "yarn install" to install all the dependancies.
 To get this example working, run the following two commands:
-# pip install spacy
-# python -m spacy download en_core_web_sm
+### pip install spacy
+### python -m spacy download en_core_web_sm
 5) Database Setup:
 Install Mysql
 Open Command Line and Execute the following queries to set up DB:
-# create database feedback;
-# use feedback;
-# CREATE TABLE myfeedback1 (
-# ID int NOT NULL AUTO_INCREMENT,
-# Value varchar(255),
-# PRIMARY KEY (ID)
-# );
+### create database feedback;
+### use feedback;
+### CREATE TABLE myfeedback1 (
+### ID int NOT NULL AUTO_INCREMENT,
+### Value varchar(255),
+### PRIMARY KEY (ID)
+### );
 6) In the api/main.py change the username and password to your own:
    app.config['MYSQL_USER'] = 'username'
    app.config['MYSQL_PASSWORD'] = 'password'
