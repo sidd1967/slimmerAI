@@ -19,6 +19,9 @@ Open Command Line and Execute the following queries to set up DB:
 6) In the api/main.py change the username and password to your own:
    app.config['MYSQL_USER'] = 'username'
    app.config['MYSQL_PASSWORD'] = 'password'
+7) Create an environment file in the api folder with the name .flaskenv and paste the below code into the file
+### FLASK_APP = main.py
+### FLASK_ENV = development
    
 7) Then run "yart start-api" to run the backend (runs on [http://localhost:5000]
 8) Now the Project will run smoothly!! 
