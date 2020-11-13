@@ -1,3 +1,31 @@
+Instructions:
+1) Download the code into you local.
+2) Open CMD PROMPT in the project folder and run "yarn install" to install all the dependancies.
+3) Then run "yarn start" to run the react app. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+4) Navigate to the "api" folder and "yarn install" to install all the dependancies.
+5) Database Setup:
+     ->Install Mysql
+     ->Open Command Line and Execute the following queries to set up DB:
+         create database feedback;
+         use feedback;
+         CREATE TABLE myfeedback1 (
+         ID int NOT NULL AUTO_INCREMENT,
+         Value varchar(255),
+         PRIMARY KEY (ID)
+     );
+6) In the api/main.py change the username and password to your own:
+   app.config['MYSQL_USER'] = 'username'
+   app.config['MYSQL_PASSWORD'] = 'password'
+   
+7) Then run "yart start-api" to run the backend (runs on [http://localhost:5000]
+8) Now the Project will run smoothly!! 
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
