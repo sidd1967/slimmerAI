@@ -1,6 +1,6 @@
 # Instructions:
 1) Download the code into you local.
-2) Open CMD PROMPT in the project folder and run "yarn install" to install all the dependancies.
+2) Open Terminal in the project folder and run "yarn install" to install all the dependancies.
 3) Then run "yarn start" to run the react app. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 4) Navigate to the "api" folder and "yarn install" to install all the dependancies.
 To get this  working, run the following two commands:
